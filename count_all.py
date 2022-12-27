@@ -18,4 +18,3 @@ def count_all(txt):
     dict_res['letter']=count_letter
     dict_res['digit']=count_digit
     return dict_res
-count_all(txt='Hello World')

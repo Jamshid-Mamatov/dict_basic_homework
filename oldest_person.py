@@ -14,6 +14,3 @@ def oldest(people:dict):
             name=key
 
     return name
-
-people = {"Javohir": 22, "Sharof": 23, "Tolib": 34, "Rustam": 16}
-oldest(people=people)

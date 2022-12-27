@@ -14,5 +14,3 @@ def cities_dict(cities:list):
 
     return dict_res
 
-cities = ["Bukhara", "Khiva", "Namangan", "Samarkand", "Tashkent"]
-print(cities_dict(cities=cities))
