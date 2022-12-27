@@ -7,4 +7,12 @@ def create_dictionary(key, value):
     Returns:
         dict: dictionary with keys and values
     """
-    return
+    dict_res={}
+
+    for k, v in zip(key,value):
+        dict_res[k]=v
+    return dict_res
+
+key = [1, 2, 3] 
+value = ["one", "two", "three"]
+create_dictionary(key=key,value=value)
