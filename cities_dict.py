@@ -8,6 +8,7 @@ def cities_dict(cities:list):
     """
     dict_res={}
     cities.sort()
+    print(cities)
     for k, v in zip(range(len(cities)),cities):
 
         dict_res[k]=v

@@ -6,8 +6,8 @@ def oldest(people:dict):
     Returns:
         str: the name of the oldest person
     """
-    max=people["Javohir"]
-    name='Javohir'
+    
+    max=0
     for key,val in people.items():
         if max<val:
             max=val

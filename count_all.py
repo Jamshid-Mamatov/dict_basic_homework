@@ -13,8 +13,8 @@ def count_all(txt):
     for i in txt:
         if i.isdigit():
             count_digit+=1
-        else:           
+        if i.isalpha():           
             count_letter+=1
-    dict_res['letter']=count_letter
-    dict_res['digit']=count_digit
+    dict_res['LETTERS']=count_letter
+    dict_res['DIGITS']=count_digit
     return dict_res
